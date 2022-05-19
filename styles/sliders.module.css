@@ -1,0 +1,23 @@
+
+
+
+.images{
+    display: flex;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,.2)), url("https://mdbootstrap.com/img/Photos/Slides/img%20(122).webp");
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-position: 50% 25%;
+    height: 370px;
+    width: 600px;
+    align-self: center;
+    margin-top: 0vh;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.images img{
+    height: 100%;
+    width: 100%; 
+    border-radius: 7px; 
+}
